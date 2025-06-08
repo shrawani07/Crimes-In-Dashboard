@@ -1,6 +1,6 @@
 🕵️‍♀️ Crime in India Dashboard (2020–2024)
-Prepared by: Shrawani Gongshe
-Tool Used: Power BI
+  Prepared by: Shrawani Gongshe
+  Tool Used: Power BI
 
 📊 Overview
 A comprehensive Power BI dashboard analyzing crime statistics across India from 2020 to 2024.

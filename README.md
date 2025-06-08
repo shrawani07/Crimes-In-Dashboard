@@ -1,6 +1,6 @@
 🕵️‍♀️ Crime in India Dashboard (2020–2024)
-  Prepared by: Shrawani Gongshe
-  Tool Used: Power BI
+Prepared by: Shrawani Gongshe
+Tool Used: Power BI
 
 📊 Overview
 A comprehensive Power BI dashboard analyzing crime statistics across India from 2020 to 2024.
@@ -31,8 +31,7 @@ Unresolved Cases = CALCULATE(
     'crime_dataset_india'[Case Closed] = "No"
 )
 
-Unresolved Rate (%) = 
-DIVIDE([Unresolved Cases], [Total Crimes], 0)
+Unresolved Rate (%) = DIVIDE([Unresolved Cases], [Total Crimes], 0)
 These measures drive the core KPIs and help visualize overall crime load, resolution efficiency, and open cases.
 
 🏙️ Crimes by City
@@ -60,7 +59,7 @@ Use Case: Optimize police deployment on peak days.
 ⏰ Crimes by Hour of the Day
 Insight: Most crimes occur between 6 PM – 12 AM.
 
-Implication: Heightened police alertness needed during evening hours.
+Implication: Heightened police alertness is needed during evening hours.
 
 ⚠️ Crimes by Severity
 Severity Categories:
@@ -163,4 +162,3 @@ Launch gender and age-targeted safety programs
 
 🧾 Conclusion
 Crime trends in India vary by city, time, and demographic. Power BI enables actionable insights that can inform effective crime prevention and resolution strategies.
-
